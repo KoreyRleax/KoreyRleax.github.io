@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <div class="gameRule"></div>
+    <div class="gameArea">
+        <div class="list">
+            <div class="score">
+                <span>分数:</span>
+                <span style="font-size:40px">0</span>
+            </div>
+            <div class="flyTime">
+                <span>飞行时间:</span>
+                <span style="font-size:40px">0</span>
+                <span>s</span>
+            </div>
+        </div>
+        <div class="mask"></div>
+        <div class="meAircraft"></div>
+        <div class="startbtn" onclick="game.start()">开始</div>
+        <!-- <div class="Bullet"></div> -->
+        <!-- <div class="enemyAircraft e1"></div>
+        <div class="enemyAircraft e2"></div>
+        <div class="enemyAircraft e3"></div> -->
+        <div class="endmask">
+            <div id="flytime">飞 行 时 间</div>
+            <div id="time">2</div>
+            <div id="rank"> 倔强青铜</div>
+            <div class="Restartbtn" onclick='game.Restart()' >重新开始</div>
+        </div>
+    </div>
+</body>
+
+</html>
